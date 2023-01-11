@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const request = require('request');
 const app = express();
 
-const apiKey = 'b98c0341a593f86222fad6be59f04483';
+const apiKey =''
 
 
 app.use(express.static('public')); //This code allows us to access all of the static files within the ‘public’ folder.
